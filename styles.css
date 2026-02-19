@@ -1,8 +1,10 @@
 body{
-    background-color: #0a0b0c;
+    background-color: #eff3f7;
     font-family: Roboto;
     margin: 0;
-    padding: 20px;
+    padding: 0%;
+    white-space: normal;
+    align-items: center;
 }
 ul{
     background-color: #1f2937;
@@ -19,6 +21,10 @@ ul{
     padding: 10px;
     border-radius: 0px;
     width:100%;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
 }
 #logo{
     font-size: 20px;
@@ -26,16 +32,119 @@ ul{
     font-size: small;
     align-self: center;
 }
+#logo img {
+    width: 4%;
+    height: auto;
+}
 div{
-    margin-top: 0px;
-    
+    margin: 0%;
 }
 .head{
    background-color: #1f2937;
    color: white;;
     display: flex;
     align-items: center;
-    flex-direction: column;
-    gap: 20px;
+    gap: 1%;
     width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main-image{
+    float:right;
+    width: 25%;
+    height: auto;
+    border-radius: 2%;
+    margin:2%;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+}
+.heading_text{
+    flex: 1;
+    padding: 1%;
+}
+.first_button{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 1% 2%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.image-container{
+    padding: 2%;
+    margin:0%;
+    background-color: white;
+    color: black;
+    display: block;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#image-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+#image-grid img{
+    width: 30%;
+    height: auto;
+    border-radius: 2%;
+    border: #3882F6 solid 1px;
+    margin: 1%;
+}
+.text_body{
+    flex-direction: column;
+    padding: 2%;
+    background-color: #e5e7eb;
+}
+.note_background{
+   display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    text-align: center;
+    font-size: small;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.notes{
+    background-color: #3882F6;
+    border-radius: 2%;
+    padding: 1%;
+    margin: 2%;
+    gap: 2%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: small;
+    box-sizing: border-box;
+}
+.notes_text{
+    color: white;
+    text-align: center;
+}
+.second_button{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 1% 2%;
+    font-weight: bold;
+    cursor: pointer;
+    float: right;
+    margin: 1%;
+}
+footer{
+    color: black;
+    text-align: center;
+    padding: 2%;
+    margin: 0%;
+    font-size: smaller;
 }
