@@ -1,0 +1,41 @@
+body{
+    background-color: #0a0b0c;
+    font-family: Roboto;
+    margin: 0;
+    padding: 20px;
+}
+ul{
+    background-color: #1f2937;
+    color: white;
+    display: inline-flex;
+    list-style: none;
+    box-sizing: border-box;
+    justify-content: space-between;
+    gap: 1%;
+    margin: 0px;
+    font-size: small;
+    font-weight: 20;
+    align-items: end;
+    padding: 10px;
+    border-radius: 0px;
+    width:100%;
+}
+#logo{
+    font-size: 20px;
+    margin-right: 63%;
+    font-size: small;
+    align-self: center;
+}
+div{
+    margin-top: 0px;
+    
+}
+.head{
+   background-color: #1f2937;
+   color: white;;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
